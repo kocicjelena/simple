@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="style1.css" type="text/css" media="screen, projection" />
+	<script type="text/javascript" src="scriptjson.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("#hide").hide();
+    $("#show_hide").hide();
+    $("#header").css("background-color","Orange");
+    $("#show").css("visibility", "visible");
+    $("#show").show();
+    
+  });
+  $("#show").click(function(){
+    $("#show_hide").show();
+    $("#show").hide();
+    $("#hide").show();
+    $("#header").css("background-color","Yellow");
+  });
+});
+</script>
+</head>
+
+<body>
+
+<div id="wrapper">
+	<header id="header">
+		<strong>Header:</strong> 
+		<div id="show_hide">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor. Praesent dictum, libero ut tempus dictum, neque eros elementum mauris, quis mollis arcu velit ac diam. Etiam neque. Quisque nec turpis. Aliquam arcu nulla, dictum et, lacinia a, mollis in, ante. Sed eu felis in elit tempor venenatis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut ultricies porttitor purus. Proin non tellus at ligula fringilla tristique. Fusce vehicula quam. Curabitur vel tortor vitae pede imperdiet ultrices. Sed tortor.
+		</div>
+<button id="hide">Hide</button>
+		<button type="hidden" id="show" value="show" style="visibility: hidden;">Show</button>
+		<ul>
+		<li>Number 1</li>
+		<li>Number 2</li>
+		<li>Number 3</li>
+		<li id="hide">Number 4</li>
+		</ul>
+	</header><!-- #header-->
+
+	<section id="middle">
+
+		<div id="container">
+			<div id="content">
+		
+<button onclick="LoadJSONdata()">Load JSON data</button>
+			<div id="image">
+			</div>
+				<strong>Content:</strong> 
+				<div id="json_data">Sed placerat accumsan ligula. Aliquam felis magna, congue quis, tempus eu, aliquam vitae, ante. Cras neque justo, ultrices at, rhoncus a, facilisis eget, nisl. Quisque vitae pede. Nam et augue. Sed a elit. Ut vel massa. Suspendisse nibh pede, ultrices vitae, ultrices nec, mollis non, nibh. In sit amet pede quis leo vulputate hendrerit. Cras laoreet leo et justo auctor condimentum. Integer id enim. Suspendisse egestas, dui ac egestas mollis, libero orci hendrerit lacus, et malesuada lorem neque ac libero. Morbi tempor pulvinar pede. Donec vel elit.
+				</div>
+			</div><!-- #content-->
+		</div><!-- #container-->
+
+		<aside id="sideLeft">
+			<strong>Left Sidebar:</strong> Integer velit. Vestibulum nisi nunc, accumsan ut, vehicula sit amet, porta a, mi. Nam nisl tellus, placerat eget, posuere eget, egestas eget, dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In elementum urna a eros. Integer iaculis. Maecenas vel elit.
+		</aside><!-- #sideLeft -->
+
+	</section><!-- #middle-->
+
+</div><!-- #wrapper -->
+
+<footer id="footer">
+	<strong>Footer:</strong> Mus elit Morbi mus enim lacus at quis Nam eget morbi. Et semper urna urna non at cursus dolor vestibulum neque enim. Tellus interdum at laoreet laoreet lacinia lacinia sed Quisque justo quis. Hendrerit scelerisque lorem elit orci tempor tincidunt enim Phasellus dignissim tincidunt. Nunc vel et Sed nisl Vestibulum odio montes Aliquam volutpat pellentesque. Ut pede sagittis et quis nunc gravida porttitor ligula.
+</footer><!-- #footer -->
+<div id="box">THIS IS BOX</div>
+</body>
+</html>

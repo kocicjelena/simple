@@ -1,0 +1,97 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#header {
+	background: Yellow;
+	margin: 10px 0 10px;
+	padding: 35px 55px;
+    width: 95%;
+	padding-top: 3px;
+    height: 150px;
+	position: absolute;
+}
+#header ul{
+    display: inline-block;
+	position: relative;
+	height: 260px;
+	float: right;
+}
+#header ul li{
+	padding-left:14px;
+       list-style-type:none;
+        margin-left:1cm;
+	border-style:dotted;
+	margin: 40;
+	paldding: 10;
+	color: red;
+	float: right;
+	position: relative;
+}
+#header #div1{
+	background: Yellow;
+	position: relative;
+	height: 160px;
+}
+#header #div2{
+	background: Orange;
+	position: relative;
+	height: 160px;
+}
+#container{
+    float: right;
+
+	
+	margin: 0;
+	padding: 0;
+	position: relative;
+
+}
+#sideLeft
+{
+	margin: 0;
+	padding: 0;
+	top: 200px;
+	width: 260px;
+	float: left;
+	background: #00CCFF;
+	position: absolute;
+}
+#wrapper{
+	width: 100%;
+	height: 100%;
+	margin: 10px 0 10px;
+}
+#box {
+	position: absolute;
+	float: left;
+	bottom: 176px;
+    display: block;
+	width: 160px;
+    
+}
+
+
+#middle {
+    position: relative;
+}
+#content {
+    padding-top: 200px;
+	position: relative;
+	
+
+	width: 460px;
+	float: right;
+}
+
+#footer {
+    
+	bottom: 0;
+    width: 100%;
+    background: #66CC66;
+    height: 160px;
+	position: absolute;
+	
+}
+
+
